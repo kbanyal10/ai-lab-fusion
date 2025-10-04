@@ -10,7 +10,7 @@ function Provider({ children, ...props }) {
       disableTransitionOnChange
       {...props}
     >
-      <div>Provider</div>
+      {children}
     </NextThemesProvider>
   );
 }
